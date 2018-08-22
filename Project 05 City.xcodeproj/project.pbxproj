@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		830F53EC212D4FAB0026F8EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F53EB212D4FAB0026F8EB /* AppDelegate.swift */; };
-		830F53EE212D4FAB0026F8EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F53ED212D4FAB0026F8EB /* ViewController.swift */; };
 		830F53F1212D4FAB0026F8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830F53EF212D4FAB0026F8EB /* Main.storyboard */; };
 		830F53F3212D4FB30026F8EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830F53F2212D4FB30026F8EB /* Assets.xcassets */; };
 		830F53F6212D4FB30026F8EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830F53F4212D4FB30026F8EB /* LaunchScreen.storyboard */; };
+		830F53FF212D50CA0026F8EB /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 830F53FE212D50CA0026F8EB /* city.json */; };
+		830F5403212D569E0026F8EB /* FavoriteCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F5402212D569E0026F8EB /* FavoriteCities.swift */; };
+		830F5405212D5A200026F8EB /* CityCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F5404212D5A200026F8EB /* CityCollectionViewController.swift */; };
+		830F5407212D5B400026F8EB /* CityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F5406212D5B400026F8EB /* CityCollectionViewCell.swift */; };
+		830F5409212D5F8D0026F8EB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F5408212D5F8D0026F8EB /* PageViewController.swift */; };
+		830F540B212D5FFC0026F8EB /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F540A212D5FFC0026F8EB /* CityDetailViewController.swift */; };
+		830F540D212D6DF40026F8EB /* ZoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F540C212D6DF40026F8EB /* ZoomImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		830F53E8212D4FAB0026F8EB /* Project 05 Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 05 Photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830F53E8212D4FAB0026F8EB /* Project 05 City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 05 City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		830F53EB212D4FAB0026F8EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		830F53ED212D4FAB0026F8EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		830F53F0212D4FAB0026F8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		830F53F2212D4FB30026F8EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		830F53F5212D4FB30026F8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		830F53F7212D4FB30026F8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830F53FE212D50CA0026F8EB /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		830F5402212D569E0026F8EB /* FavoriteCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCities.swift; sourceTree = "<group>"; };
+		830F5404212D5A200026F8EB /* CityCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCollectionViewController.swift; sourceTree = "<group>"; };
+		830F5406212D5B400026F8EB /* CityCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCollectionViewCell.swift; sourceTree = "<group>"; };
+		830F5408212D5F8D0026F8EB /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		830F540A212D5FFC0026F8EB /* CityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		830F540C212D6DF40026F8EB /* ZoomImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +58,7 @@
 		830F53E9212D4FAB0026F8EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				830F53E8212D4FAB0026F8EB /* Project 05 Photo.app */,
+				830F53E8212D4FAB0026F8EB /* Project 05 City.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,22 +66,36 @@
 		830F53EA212D4FAB0026F8EB /* Project 05 Photo */ = {
 			isa = PBXGroup;
 			children = (
-				830F53EB212D4FAB0026F8EB /* AppDelegate.swift */,
-				830F53ED212D4FAB0026F8EB /* ViewController.swift */,
+				830F53FD212D4FE60026F8EB /* Misc */,
 				830F53EF212D4FAB0026F8EB /* Main.storyboard */,
-				830F53F2212D4FB30026F8EB /* Assets.xcassets */,
-				830F53F4212D4FB30026F8EB /* LaunchScreen.storyboard */,
+				830F5404212D5A200026F8EB /* CityCollectionViewController.swift */,
+				830F5408212D5F8D0026F8EB /* PageViewController.swift */,
+				830F540A212D5FFC0026F8EB /* CityDetailViewController.swift */,
+				830F540C212D6DF40026F8EB /* ZoomImageViewController.swift */,
+				830F5402212D569E0026F8EB /* FavoriteCities.swift */,
+				830F5406212D5B400026F8EB /* CityCollectionViewCell.swift */,
 				830F53F7212D4FB30026F8EB /* Info.plist */,
 			);
 			path = "Project 05 Photo";
 			sourceTree = "<group>";
 		};
+		830F53FD212D4FE60026F8EB /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				830F53FE212D50CA0026F8EB /* city.json */,
+				830F53EB212D4FAB0026F8EB /* AppDelegate.swift */,
+				830F53F4212D4FB30026F8EB /* LaunchScreen.storyboard */,
+				830F53F2212D4FB30026F8EB /* Assets.xcassets */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		830F53E7212D4FAB0026F8EB /* Project 05 Photo */ = {
+		830F53E7212D4FAB0026F8EB /* Project 05 City */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 830F53FA212D4FB30026F8EB /* Build configuration list for PBXNativeTarget "Project 05 Photo" */;
+			buildConfigurationList = 830F53FA212D4FB30026F8EB /* Build configuration list for PBXNativeTarget "Project 05 City" */;
 			buildPhases = (
 				830F53E4212D4FAB0026F8EB /* Sources */,
 				830F53E5212D4FAB0026F8EB /* Frameworks */,
@@ -79,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project 05 Photo";
+			name = "Project 05 City";
 			productName = "Project 05 Photo";
-			productReference = 830F53E8212D4FAB0026F8EB /* Project 05 Photo.app */;
+			productReference = 830F53E8212D4FAB0026F8EB /* Project 05 City.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 830F53E3212D4FAB0026F8EB /* Build configuration list for PBXProject "Project 05 Photo" */;
+			buildConfigurationList = 830F53E3212D4FAB0026F8EB /* Build configuration list for PBXProject "Project 05 City" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				830F53E7212D4FAB0026F8EB /* Project 05 Photo */,
+				830F53E7212D4FAB0026F8EB /* Project 05 City */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +150,7 @@
 			files = (
 				830F53F6212D4FB30026F8EB /* LaunchScreen.storyboard in Resources */,
 				830F53F3212D4FB30026F8EB /* Assets.xcassets in Resources */,
+				830F53FF212D50CA0026F8EB /* city.json in Resources */,
 				830F53F1212D4FAB0026F8EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830F53EE212D4FAB0026F8EB /* ViewController.swift in Sources */,
+				830F5403212D569E0026F8EB /* FavoriteCities.swift in Sources */,
+				830F5409212D5F8D0026F8EB /* PageViewController.swift in Sources */,
+				830F540D212D6DF40026F8EB /* ZoomImageViewController.swift in Sources */,
+				830F5405212D5A200026F8EB /* CityCollectionViewController.swift in Sources */,
 				830F53EC212D4FAB0026F8EB /* AppDelegate.swift in Sources */,
+				830F540B212D5FFC0026F8EB /* CityDetailViewController.swift in Sources */,
+				830F5407212D5B400026F8EB /* CityCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +320,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jkjk.Project-05-Photo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkjk.Project-05-City";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +339,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jkjk.Project-05-Photo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jkjk.Project-05-City";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		830F53E3212D4FAB0026F8EB /* Build configuration list for PBXProject "Project 05 Photo" */ = {
+		830F53E3212D4FAB0026F8EB /* Build configuration list for PBXProject "Project 05 City" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				830F53F8212D4FB30026F8EB /* Debug */,
@@ -326,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		830F53FA212D4FB30026F8EB /* Build configuration list for PBXNativeTarget "Project 05 Photo" */ = {
+		830F53FA212D4FB30026F8EB /* Build configuration list for PBXNativeTarget "Project 05 City" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				830F53FB212D4FB30026F8EB /* Debug */,

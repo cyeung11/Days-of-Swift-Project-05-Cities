@@ -1,0 +1,64 @@
+{
+    "cities" : [
+              {
+              "name" : "Bristol",
+              "info" : "Bristol is a city straddling the River Avon in the southwest of England with a prosperous maritime history. Its former city-centre port is now a cultural hub, the Harbourside, where the M Shed museum explores local social and industrial heritage. The harbour's 19th-century warehouses now contain restaurants, shops and cultural institutions such as contemporary art gallery The Arnolfini.",
+              "image" : "bristol"
+              },
+              {
+              "name" : "Edinburgh",
+              "info" : "Edinburgh is Scotland's compact, hilly capital. It has a medieval Old Town and elegant Georgian New Town with gardens and neoclassical buildings. Looming over the city is Edinburgh Castle, home to Scotland’s crown jewels and the Stone of Destiny, used in the coronation of Scottish rulers. Arthur’s Seat is an imposing peak in Holyrood Park with sweeping views, and Calton Hill is topped with monuments and memorials.",
+              "image" : "edinburgh"
+              },
+              {
+              "name" : "York",
+              "info" : "York is a walled city in northeast England that was founded by the ancient Romans. Its huge 13th-century Gothic cathedral, York Minster, has medieval stained glass and 2 functioning bell towers. The City Walls form a walkway on both sides of the River Ouse. The Monk Bar gate houses an exhibition tracing the life of 15th-century Plantagenet King Richard III.",
+              "image" : "york"
+              },
+              {
+              "name" : "London",
+              "info" : "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.",
+              "image" : "london"
+              },
+              {
+              "name" : "Paris",
+              "info" : "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.",
+              "image" : "paris"
+              },
+              {
+              "name" : "Segovia",
+              "info" : "Segovia is a historic city northwest of Madrid, in central Spain's Castile and León region. Its centuries of settlement have resulted in a rich architectural legacy, including medieval walls, Romanesque churches, a former royal palace and a Gothic cathedral. Its iconic ancient Roman aqueduct has more than 160 arches, most in the original mortarless granite, and stands above Plaza Azoguejo in the heart of the city.",
+              "image" : "segovia"
+              },
+              {
+              "name" : "Seville",
+              "info" : "Seville is the capital of southern Spain’s Andalusia region. It's famous for flamenco dancing, particularly in its Triana neighborhood. Major landmarks include the ornate Alcázar castle complex, built during the Moorish Almohad dynasty, and the 18th-century Plaza de Toros de la Maestranza bullring. The Gothic Seville Cathedral is the site of Christopher Columbus’s tomb and a minaret turned bell tower, the Giralda.",
+              "image" : "seville"
+              },
+              {
+              "name" : "Nuremberg",
+              "info" : "Nuremberg, a city in northern Bavaria, is distinguished by medieval architecture such as the fortifications and stone towers of its Altstadt (Old Town). At the northern edge of the Altstadt, surrounded by red-roofed buildings, stands Kaiserburg Castle. The Hauptmarkt (central square) contains the Schöner Brunnen, the gilded “beautiful fountain” with tiers of figures, and Frauenkirche, a 14th-century Gothic church.",
+              "image" : "nuremberg"
+              },
+              {
+              "name" : "Amsterdam",
+              "info" : "Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades, legacies of the city’s 17th-century Golden Age. Its Museum District houses the Van Gogh Museum, works by Rembrandt and Vermeer at the Rijksmuseum, and modern art at the Stedelijk. Cycling is key to the city’s character, and there are numerous bike paths.",
+              "image" : "amsterdam"
+              },
+              {
+              "name" : "Rome",
+              "info" : "Rome, Italy’s capital, is a sprawling, cosmopolitan city with nearly 3,000 years of globally influential art, architecture and culture on display. Ancient ruins such as the Forum and the Colosseum evoke the power of the former Roman Empire. Vatican City, headquarters of the Roman Catholic Church, has St. Peter’s Basilica and the Vatican Museums, which house masterpieces such as Michelangelo’s Sistine Chapel frescoes.",
+              "image" : "rome"
+              },
+              {
+              "name" : "Athens",
+              "info" : "Athens is the capital of Greece. It was also at the heart of Ancient Greece, a powerful civilization and empire. The city is still dominated by 5th-century BC landmarks, including the Acropolis, a hilltop citadel topped with ancient buildings like the colonnaded Parthenon temple. The Acropolis Museum, along with the National Archaeological Museum, preserves sculptures, vases, jewelry and more from Ancient Greece.",
+              "image" : "athens"
+              },
+              {
+              "name" : "Santorini",
+              "info" : "Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. The whitewashed, cubiform houses of its 2 principal towns, Fira and Oia, cling to cliffs above an underwater caldera (crater). They overlook the sea, small islands to the west and beaches made up of black, red and white lava pebbles.",
+              "image" : "santorini"
+              },
+              ]
+}
